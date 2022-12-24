@@ -13,3 +13,4 @@ with open("txt_file\data01.txt",'r') as f:
     rf=f.read()
     main(data=rf)
     
+    
