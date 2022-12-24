@@ -7,4 +7,9 @@ def main(data:str):
         list: return answer
     """
     
+    return [len(i) for i in data.split('\n')]
 # Read data from file
+
+with open('txt_file\data06.txt','r') as f:
+    fr=f.read()
+    main(data=fr)
