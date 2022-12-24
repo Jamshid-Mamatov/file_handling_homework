@@ -13,6 +13,6 @@ def main(data:str):
     return max(len_row)
 # Read data from file
 
-with open('txt_file\data10.txt','r') as f:
+with open('txt_file/data10.txt','r') as f:
     fr=f.read()
     main(data=fr)

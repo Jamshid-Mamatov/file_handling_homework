@@ -19,6 +19,6 @@ def main(data:str):
     return [dig_count,str_count]
 # Read data from file
 
-with open('txt_file\data05.txt','r') as f:
+with open('txt_file/data05.txt','r') as f:
     rf=f.read()
     main(rf)

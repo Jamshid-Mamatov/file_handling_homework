@@ -9,8 +9,8 @@ def main(data:str):
     return data.split(',')
     
 # Read data from file
-with open("txt_file\data01.txt",'r') as f:
+with open("txt_file/data01.txt",'r') as f:
     rf=f.read()
-    main(data=rf)
+    print(main(data=rf))
     
-    
+

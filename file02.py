@@ -9,6 +9,6 @@ def main(data:str):
     return len(data)
 
 # Read data from file
-with open('txt_file\data02.txt','r') as f:
+with open('txt_file/data02.txt','r') as f:
     fr=f.read()
     main(data=fr)

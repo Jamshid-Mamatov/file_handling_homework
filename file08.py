@@ -23,6 +23,6 @@ def main(data:str):
 
 # Read data from file
 
-with open("txt_file\data08.txt",'r') as f:
+with open("txt_file/data08.txt",'r') as f:
     fr=f.read()
     print(main(data=fr))
