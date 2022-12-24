@@ -17,7 +17,7 @@ def main(data:str):
 
     min=int(numbers[0][0])
     for number in numbers:
-        if min>int(number[0]):
+        if min<int(number[0]):
             min=int(number[0])
     return min
 
