@@ -15,7 +15,7 @@ def main(data:str):
         numbers.append(i[1].split('.'))
     
 
-    main=int(numbers[0][0])
+    min=int(numbers[0][0])
     for number in numbers:
         if min>int(number[0]):
             min=int(number[0])
